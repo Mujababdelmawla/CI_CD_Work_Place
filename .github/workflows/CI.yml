@@ -30,7 +30,7 @@ jobs:
             - name: package application
               run: |
                  mkdir build 
-                 cp app.py build/
+                 cp app.py && test_app.py build/
                  echo "build process has been completed"
 
             - name: upload the artifact
