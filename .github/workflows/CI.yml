@@ -34,7 +34,7 @@ jobs:
                  echo "build process has been completed"
 
             - name: upload the artifact
-              uses: actions/upload-artifacts@v4
+              uses: actions/upload-artifact@v4
               with: 
                 name: python-app
                 path: build/
